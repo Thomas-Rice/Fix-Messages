@@ -14,7 +14,7 @@ Run pip install -r requirements.txt (Python 2), or pip3 install -r requirements.
 <h2>Fix_Message_Generator.py</h2>
 This script has one input will generate (number_of_messages_to_generate) which defines how many randomly generated fix messages will be created.
 The fix messages follow a specific strucutre with the items in {} being the variables that will differ:
-<br>8=FIX.4.2|35=D|55={symbol}|54={side}|38={quantity}|40={ordType}|59={timeInForce}|167={securityType}|1={account}|44={price}.</br>
+<br><br>8=FIX.4.2|35=D|55={symbol}|54={side}|38={quantity}|40={ordType}|59={timeInForce}|167={securityType}|1={account}|44={price}.</br><br>
 
 The messages will be written to a text file in the current directory the script is being run from.
 Running the script by calling the script name will generate 1000 messages by default.
